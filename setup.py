@@ -24,7 +24,7 @@ setup(
     package_dir={"": "src"},
     packages=find_packages("src"),
     zip_safe=True,
-    python_requires=">=3.11",
+    python_requires=">=3.9",
     install_requires=_deps,
     classifiers=[],
 )
